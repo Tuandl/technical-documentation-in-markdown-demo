@@ -1,0 +1,13 @@
+site_name: Technical Documentation in Markdown
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  palette: 
+    scheme: default
+    primary: brown
+    accent: deep orange
+  language: en
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  features:
+    - navigation.sections
