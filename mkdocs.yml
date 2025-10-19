@@ -1,7 +1,7 @@
 site_name: Technical Documentation in Markdown
 site_url: https://mydomain.org/mysite
-remote_name: Technical document in Markdown
-repo_url: https://github.com/Tuandl/technical-documentation-in-markdown-demo/tree/gh-pages
+repo_name: Technical document in Markdown
+repo_url: https://github.com/Tuandl/technical-documentation-in-markdown-demo/
 theme:
   name: material
   palette: 
