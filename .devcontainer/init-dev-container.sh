@@ -35,4 +35,11 @@ fi
 echo "Installing material-mkdocs..." >&2
 pip install mkdocs-material
 
+# Step 4: Install social card plugins
+echo "Installing mkdocs-social-cards plugin..." >&2
+pip install mkdocs-material[imaging]
+
+sudo apt-get update
+sudo apt-get install -y libcairo2
+
 echo "Dev container initialization complete." >&2

@@ -11,3 +11,11 @@ theme:
   favicon: assets/logo.png
   features:
     - navigation.sections
+    - search.suggest
+    - search.highlight
+    - search.share
+plugins:
+  - search
+  - social:
+      cards_layout_options:
+        font_family: Noto Sans SC
