@@ -1,5 +1,7 @@
 site_name: Technical Documentation in Markdown
 site_url: https://mydomain.org/mysite
+remote_name: Technical document in Markdown
+repo_url: https://github.com/Tuandl/technical-documentation-in-markdown-demo/tree/gh-pages
 theme:
   name: material
   palette: 
@@ -7,8 +9,8 @@ theme:
     primary: brown
     accent: deep orange
   language: en
-  logo: assets/logo.png
-  favicon: assets/logo.png
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
   features:
     - navigation.sections
     - search.suggest
@@ -19,3 +21,11 @@ plugins:
   - social:
       cards_layout_options:
         font_family: Noto Sans SC
+  - blog
+  - tags
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
